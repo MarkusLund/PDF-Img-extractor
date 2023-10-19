@@ -44,9 +44,6 @@ def pdf_image_extract(pdf_path):
     print(f"Moved {pdf_path} to scraped folder\n")
 
 
-# Usage
-pdfs = []
-
 # Find all pdf in unscraped folder
 for pdf_path in os.listdir("unscraped"):
     if pdf_path.endswith(".pdf"):
